@@ -4,6 +4,11 @@
   "description": "Decode GPT-2 byte-level BPE tokens in vocab.json files.",
   "version": "0.0.1",
   "publisher": "QingGo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QingGo/gpt2-vocab-viewer.git"
+  },
   "engines": {
     "vscode": "^1.84.0"
   },

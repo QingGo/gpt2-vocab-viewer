@@ -1,5 +1,6 @@
 # GPT-2 Vocab Viewer
 
+
 Decode GPT-2 byte-level BPE tokens inside `vocab.json` and `tokenizer.json` files.
 
 ## Features
