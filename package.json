@@ -3,7 +3,7 @@
   "displayName": "GPT-2 Vocab Viewer",
   "description": "Decode GPT-2 byte-level BPE tokens in vocab.json files.",
   "version": "0.0.1",
-  "publisher": "local",
+  "publisher": "QingGo",
   "engines": {
     "vscode": "^1.84.0"
   },
