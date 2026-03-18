@@ -6,7 +6,9 @@ Decode GPT-2 byte-level BPE tokens inside `vocab.json` and `tokenizer.json` file
 
 - Command: **GPT-2 Vocab Viewer: Open Decoded Vocab**
   - Opens a read-only JSON view mapping `id -> decoded_text`.
+![Command](./images/covert-all.png)
 - Hover: When you hover a string token in JSON, shows decoded text.
+![Hover](./images/hover.png)
 
 ## Usage
 
