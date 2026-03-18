@@ -1,0 +1,36 @@
+{
+  "name": "gpt2-vocab-viewer",
+  "displayName": "GPT-2 Vocab Viewer",
+  "description": "Decode GPT-2 byte-level BPE tokens in vocab.json files.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:gpt2VocabViewer.openDecoded",
+    "onLanguage:json"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gpt2VocabViewer.openDecoded",
+        "title": "GPT-2 Vocab Viewer: Open Decoded Vocab"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.0",
+    "@types/vscode": "^1.84.0",
+    "eslint": "^8.50.0",
+    "typescript": "^5.2.2"
+  }
+}
