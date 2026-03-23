@@ -3,6 +3,9 @@
 
 Decode GPT-2 byte-level BPE tokens inside `vocab.json` and `tokenizer.json` files.
 
+- VSCode marketplace: https://marketplace.visualstudio.com/items?itemName=QingGo.gpt2-vocab-viewer
+- Open VSX: https://open-vsx.org/extension/QingGo/gpt2-vocab-viewer
+
 ## Features
 
 - Command: **GPT-2 Vocab Viewer: Open Decoded Vocab**
